@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "9005990395",
+    "firebase_url": "https://avherramientasappmovil.firebaseio.com",
+    "project_id": "avherramientasappmovil",
+    "storage_bucket": "avherramientasappmovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9005990395:android:ec425804cc43865a",
+        "android_client_info": {
+          "package_name": "com.example.avherramientasappmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9005990395-5msiu7nrng1kc8lh4rj8l2hetrcm2eqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avherramientasappmovil",
+            "certificate_hash": "0236e5c28790bccb023d4f1ca7d566b849fbad97"
+          }
+        },
+        {
+          "client_id": "9005990395-ffaogn7cn40nfgoip2sgk3ck847gljbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqrSZgyoB1zNqjDPBvXIxsrNQXda7jC30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9005990395-ffaogn7cn40nfgoip2sgk3ck847gljbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

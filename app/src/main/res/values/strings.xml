@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">AVHerramientasAPPMovil</string>
+    <string name="FACEBOOK_APP_ID">430025017601024</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">09bcde6cd7ccc4775d4e94e51eecf337</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
