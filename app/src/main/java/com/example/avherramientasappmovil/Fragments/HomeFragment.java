@@ -1,9 +1,11 @@
 package com.example.avherramientasappmovil.Fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -19,6 +21,7 @@ import com.example.avherramientasappmovil.Common.Common;
 import com.example.avherramientasappmovil.Interface.IBannerLoadListener;
 import com.example.avherramientasappmovil.Interface.ILookbookLoadListener;
 import com.example.avherramientasappmovil.Model.Banner;
+import com.example.avherramientasappmovil.PedidosActivity;
 import com.example.avherramientasappmovil.R;
 import com.example.avherramientasappmovil.Service.PicassoImageLoadingService;
 import com.facebook.accountkit.AccountKit;
@@ -35,6 +38,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import butterknife.Unbinder;
 import ss.com.bannerslider.Slider;
 
@@ -51,6 +55,13 @@ public class HomeFragment extends Fragment implements IBannerLoadListener, ILook
     Slider banner_slider;
     @BindView(R.id.recycler_look_book)
     RecyclerView recycler_look_book;
+    @OnClick(R.id.card_view_pedidos)
+    void booking(){
+
+        startActivity(new Intent(getActivity(), PedidosActivity.class));
+
+    }
+
 
     //Firestore
 
