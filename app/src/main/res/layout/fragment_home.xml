@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:fontFamily="@font/bellerose"
-                    android:text="Pedidos"
+                    android:text="Herramientas"
                     android:textSize="@dimen/textCardSize" />
 
             </LinearLayout>
@@ -91,7 +91,7 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card_view_reservas"
+            android:id="@+id/card_view_misHerramientas"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
@@ -114,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:fontFamily="@font/bellerose"
-                    android:text="Reservas"
+                    android:text="Mis Herramientas"
                     android:textSize="@dimen/textCardSize" />
 
             </LinearLayout>
@@ -145,7 +145,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:fontFamily="@font/bellerose"
-                    android:text="Mis Herramientas" />
+                    android:text="Historial" />
 
             </LinearLayout>
 

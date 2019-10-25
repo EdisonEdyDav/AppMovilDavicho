@@ -20,6 +20,7 @@ import com.example.avherramientasappmovil.Adapter.LookbookAdapter;
 import com.example.avherramientasappmovil.Common.Common;
 import com.example.avherramientasappmovil.Interface.IBannerLoadListener;
 import com.example.avherramientasappmovil.Interface.ILookbookLoadListener;
+import com.example.avherramientasappmovil.MisHerramientasActivity;
 import com.example.avherramientasappmovil.Model.Banner;
 import com.example.avherramientasappmovil.PedidosActivity;
 import com.example.avherramientasappmovil.R;
@@ -55,15 +56,22 @@ public class HomeFragment extends Fragment implements IBannerLoadListener, ILook
     Slider banner_slider;
     @BindView(R.id.recycler_look_book)
     RecyclerView recycler_look_book;
+
+
     @OnClick(R.id.card_view_pedidos)
-    void booking(){
+        void booking() {
 
         startActivity(new Intent(getActivity(), PedidosActivity.class));
-
     }
 
+    
 
-    //Firestore
+
+
+
+
+
+        //Firestore
 
     CollectionReference bannerRef,lookbookRef;
 

@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
@@ -13,6 +14,8 @@ public class PedidosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pedidos);
+
+        Button btn_historial;
 
 
         ArrayList<Fuente>lista= new ArrayList<Fuente>();
