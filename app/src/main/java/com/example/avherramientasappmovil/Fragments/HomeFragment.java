@@ -24,6 +24,7 @@ import com.example.avherramientasappmovil.MisHerramientasActivity;
 import com.example.avherramientasappmovil.Model.Banner;
 import com.example.avherramientasappmovil.PedidosActivity;
 import com.example.avherramientasappmovil.R;
+import com.example.avherramientasappmovil.ReservaActivity;
 import com.example.avherramientasappmovil.Service.PicassoImageLoadingService;
 import com.facebook.accountkit.AccountKit;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -64,14 +65,30 @@ public class HomeFragment extends Fragment implements IBannerLoadListener, ILook
         startActivity(new Intent(getActivity(), PedidosActivity.class));
     }
 
-    
+    @OnClick(R.id.card_view_misHerramientas)
+    void nextmisherramientas() {
+
+        startActivity(new Intent(getActivity(), MisHerramientasActivity.class));
+    }
+
+    @OnClick(R.id.card_view_notify)
+    void nextNotify() {
+
+        startActivity(new Intent(getActivity(), ReservaActivity.class));
+    }
 
 
 
 
 
 
-        //Firestore
+
+
+
+
+
+
+    //Firestoreee
 
     CollectionReference bannerRef,lookbookRef;
 

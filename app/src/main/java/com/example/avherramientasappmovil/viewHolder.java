@@ -2,6 +2,7 @@ package com.example.avherramientasappmovil;
 
 
 import android.content.Intent;
+import android.sax.StartElementListener;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.TextureView;
@@ -12,6 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
+
+
 
 
 public class viewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -44,12 +47,17 @@ public class viewHolder extends RecyclerView.ViewHolder implements View.OnClickL
 
         if (view.getId() == btn_reserva.getId()){
 
-
             Toast.makeText(btn_reserva.getContext(),"Apreto la opcion 1",Toast.LENGTH_SHORT).show();
+
+
+
+
         }else{
             Toast.makeText(btn_añadir.getContext(),"Apreto la opcion 2",Toast.LENGTH_SHORT).show();
 
         }
+
+
 
 
 
