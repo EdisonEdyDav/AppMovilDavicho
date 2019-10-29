@@ -13,13 +13,16 @@ import java.util.ArrayList;
 public class PedidosActivity extends AppCompatActivity {
 
     Button btn_IngresoPedidos;
+    Button btn_IngresoReservas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pedidos);
 
-        final Button btn_IngresoPedidos= (Button)findViewById(R.id.btn_IngresoPedidos);
+        Button btn_IngresoPedidos= (Button)findViewById(R.id.btn_IngresoPedidos);
+        Button btn_IngresoReservas=(Button)findViewById(R.id.btn_IngresoReservas);
+
         btn_IngresoPedidos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,6 +31,14 @@ public class PedidosActivity extends AppCompatActivity {
             }
         });
 
+
+        btn_IngresoReservas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(PedidosActivity.this, IngresoReservasActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
 

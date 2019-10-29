@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.example.avherramientasappmovil.Adapter.HomeSliderAdapter;
 import com.example.avherramientasappmovil.Adapter.LookbookAdapter;
 import com.example.avherramientasappmovil.Common.Common;
+import com.example.avherramientasappmovil.HistorialActivity;
 import com.example.avherramientasappmovil.Interface.IBannerLoadListener;
 import com.example.avherramientasappmovil.Interface.ILookbookLoadListener;
 import com.example.avherramientasappmovil.MisHerramientasActivity;
@@ -65,17 +66,13 @@ public class HomeFragment extends Fragment implements IBannerLoadListener, ILook
         startActivity(new Intent(getActivity(), PedidosActivity.class));
     }
 
-    @OnClick(R.id.card_view_misHerramientas)
-    void nextmisherramientas() {
+    @OnClick(R.id.card_view_Historial)
+    void nextHistorial() {
 
-        startActivity(new Intent(getActivity(), MisHerramientasActivity.class));
+        startActivity(new Intent(getActivity(), HistorialActivity.class));
     }
 
-    @OnClick(R.id.card_view_notify)
-    void nextNotify() {
 
-        startActivity(new Intent(getActivity(), ReservaActivity.class));
-    }
 
 
 

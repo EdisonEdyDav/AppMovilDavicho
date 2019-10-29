@@ -10,14 +10,20 @@
     tools:context=".HistorialActivity">
 
 
-
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="150dp"
+        android:hint="Ingrese referencia" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
         android:hint="Ingrese fecha inicial" />
 
     <EditText
@@ -32,7 +38,7 @@
 
 
     <Button
-        android:id="@+id/btnBusca"
+        android:id="@+id/btnBuscarHistorial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
