@@ -12,7 +12,26 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/contenedor"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="553dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_IngresoPedidos"
+            android:text="Pedidos"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_IngresoReservas"
+            android:text="Reservas"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
